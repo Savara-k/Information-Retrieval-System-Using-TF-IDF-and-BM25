@@ -76,13 +76,6 @@ A probabilistic ranking model that improves upon TF-IDF by incorporating:
 Ranking Comparison
 Query: "government funding transportation"
 
-Top-ranked documents:
-Document	TF-IDF Score	BM25 Score
-doc26.txt	0.4051	2.1957
-doc43.txt	0.4051	2.1957
-doc49.txt	0.4051	2.1957
-doc1.txt	0.2025	1.5641
-
 TF-IDF and BM25 shared 9 of the top 10 results but differed in ranking order due to length normalization differences.
 
 ## Visualization
